@@ -19,9 +19,7 @@ And users, can save some book from admin shelves.
 
 Here is some displays:
 
-![](https://cdn.discordapp.com/attachments/613711994016628739/779957912343674920/unknown.png)
-
-![](https://cdn.discordapp.com/attachments/613711994016628739/779958424728240128/unknown.png)
+![](https://cdn.discordapp.com/attachments/613711994016628739/779957912343674920/unknown.png) ![](https://cdn.discordapp.com/attachments/613711994016628739/779958424728240128/unknown.png)
 
 ![](https://cdn.discordapp.com/attachments/613711994016628739/779960466385928228/unknown.png)
 
