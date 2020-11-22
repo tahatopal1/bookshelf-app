@@ -27,6 +27,8 @@ Here is some displays:
 
 ![](https://cdn.discordapp.com/attachments/613711994016628739/779960524531040256/unknown.png)
 
-![](https://cdn.discordapp.com/attachments/613711994016628739/779960524531040256/unknown.png)
+![](https://cdn.discordapp.com/attachments/613711994016628739/779960577879048203/unknown.png)
 
+![](https://cdn.discordapp.com/attachments/613711994016628739/779960626264801290/unknown.png)
 
+![](https://cdn.discordapp.com/attachments/613711994016628739/779960891021328424/unknown.png)
