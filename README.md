@@ -13,7 +13,7 @@ Admins search book from "Google Books" by using keywords. (Google Books API is u
 
 ![](https://cdn.discordapp.com/attachments/613711994016628739/779960823652286484/unknown.png)
 
-Admins also performs another stuff like saving, removing etc...
+Admins also perform another stuff like saving, removing etc...
 
 And users, can save some book from admin shelves.
 
