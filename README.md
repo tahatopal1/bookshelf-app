@@ -1,5 +1,5 @@
 # bookshelf-app
-A simple book registry application
+<h2>A simple book registry application</h2>
 
 I'm planning to take several online courses soon. Before i start, i just needed to show at least what i currently know. That's why i developed this project.
 
