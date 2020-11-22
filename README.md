@@ -3,7 +3,7 @@
 
 I'm planning to take several online courses soon. Before i start, i just needed to show at least what i currently know. That's why i developed this project.
 
-This is a simple book management projects that allows users to add some books into their virtual shelves.
+This is a simple book management project that allows users to add some books into their virtual shelves.
 
 <h3>There is 3 different user tiers: Users, Admins and AppMaster</h3>
 
