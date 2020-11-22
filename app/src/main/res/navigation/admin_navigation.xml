@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@+id/nav_main_page">
+
+    <fragment
+        android:id="@+id/nav_main_page"
+        android:name="com.example.bookshelf.fragment.MainPageFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_main_page">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+
+        <argument
+            android:name="session"
+            android:defaultValue="2"
+            app:argType="integer" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:label="@string/home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_main_page" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_shelf"
+        android:name="com.example.bookshelf.fragment.BookListFragment"
+        android:label="Shelf"
+        tools:layout="@layout/fragment_book" >
+
+        <argument
+            android:name="bookSession"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_book"
+        android:name="com.example.bookshelf.fragment.BookListFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_book">
+
+        <argument
+            android:name="bookSession"
+            android:defaultValue="1"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.example.bookshelf.fragment.UserFragment"
+        android:label="Users"
+        tools:layout="@layout/fragment_user">
+
+        <argument
+            android:name="session"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <argument
+            android:name="approvedCode"
+            android:defaultValue="1"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_users_not_approved"
+        android:name="com.example.bookshelf.fragment.UserFragment"
+        android:label="Non-Approved Users"
+        tools:layout="@layout/fragment_user">
+
+        <argument
+            android:name="session"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <argument
+            android:name="approvedCode"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+    </fragment>
+
+
+</navigation>

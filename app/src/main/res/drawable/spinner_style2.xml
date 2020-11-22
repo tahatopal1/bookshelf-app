@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><layer-list>
+        <item>
+            <shape>
+                <solid
+                    android:color="@color/colorWhite">
+                </solid>
+
+                <corners android:radius="3dp" />
+
+                <padding
+                    android:left="10dp"
+                    android:right="10dp"/>
+                <stroke
+                    android:width="2dp"
+                    android:color="@color/colorButton"/>
+            </shape>
+        </item>
+        <item >
+            <bitmap android:gravity="right"
+                android:src="@drawable/baseline_keyboard_arrow_down_black_18dp" />
+        </item>
+    </layer-list></item>
+</selector>

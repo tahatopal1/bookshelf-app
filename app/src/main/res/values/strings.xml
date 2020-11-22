@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">BookShelf</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main_page_navigation">MainPageNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_user_session">UserSessionActivity</string>
+    <string name="title_activity_admin_session">AdminSessionActivity</string>
+    <string name="title_activity_app_master">AppMasterActivity</string>
+
+    <!-- ENDPOINTS -->
+
+    <string name="endpoint_home">http://10.0.2.2:4444</string>
+    <string name="endpoint_usershelf">/usershelf</string>
+    <string name="endpoint_savebook">/saveBook</string>
+    <string name="endpoint_approve">/approve</string>
+    <string name="endpoint_getbooks">/getBooks</string>
+    <string name="endpoint_getbookCount">/getBookCount</string>
+    <string name="get_non_approved">/get-non-approved</string>
+    <string name="endpoint_book">/book</string>
+    <string name="endpoint_categories">/getCategories</string>
+    <string name="endpoint_user">/user</string>
+    <string name="endpoint_usercount">/user-count</string>
+    <string name="endpoint_getuser">/get-user</string>
+    <string name="endpoint_common">/common</string>
+    <string name="endpoint_menutitles">/menu-titles</string>
+    <string name="endpoint_login">/login</string>
+    <string name="endpoint_update">/update</string>
+    <string name="endpoint_signup">/signup</string>
+    <string name="endpoint_delete">/delete</string>
+    <string name="validate_manager">/validate-manager</string>
+
+
+    <!-- KEYWORDS -->
+
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="category">category</string>
+    <string name="approve">pass</string>
+    <string name="approved">approved</string>
+    <string name="approvedcode">approvedCode</string>
+    <string name="authcode">authcode</string>
+    <string name="manager">manager</string>
+    <string name="appmaster">AppMaster</string>
+
+    <string name="session">session</string>
+    <string name="userSession">userSession</string>
+    <string name="signSession">signSession</string>
+    <string name="bookSession">bookSession</string>
+    <string name="bookApprovedSession">bookApprovedSession</string>
+    <string name="subUserSession">subUserSession</string>
+
+    <string name="author">Author:\t</string>
+    <string name="publisher">Publisher:\t</string>
+    <string name="year">Year:\t</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="del">Del</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="cancel">cancel</string>
+    <string name="options">Options</string>
+    <string name="waiting">WAITING</string>
+
+    <!-- Word Groups -->
+    <string name="approved_books">Approved Books</string>
+    <string name="remove_user">Or Remove User</string>
+    <string name="delete_user">Delete User</string>
+
+    <!-- SENTENCES -->
+    <string name="username_cannot_be_empty">Username area cannot be empty!</string>
+    <string name="password_cannot_be_empty">Password area cannot be empty!</string>
+    <string name="name_cannot_be_empty">Name area cannot be empty!</string>
+    <string name="surname_cannot_be_empty">Surname area cannot be empty!</string>
+    <string name="manager_cannot_be_empty">Manager area cannot be empty!</string>
+    <string name="cannot_go_main_page">Cannot go main page!</string>
+    <string name="cannot_arrange">Cannot arrange AppMaster profile!</string>
+    <string name="no_such_manager">There is no such manager!</string>
+    <string name="system_error">System Error!</string>
+    <string name="there_is_no_desc">There is no description for this book!</string>
+    <string name="discard_book">Will you discard the book?</string>
+    <string name="approve_book">Will you approve the book?</string>
+    <string name="save_book">Will you save the book?</string>
+    <string name="problem_occured">A problem has occured!</string>
+    <string name="book_added">Book has been added successfully!</string>
+    <string name="book_exists">This book already exists!</string>
+    <string name="accept_user">Will you accept the user?</string>
+    <string name="choose_option">Choose one of the options below</string>
+    <string name="will_you_remove">Will you remove the user?</string>
+
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat vel elit a blandit. Donec fringilla porta ipsum in venenatis. Praesent feugiat felis nisl, lacinia rutrum tortor vulputate fringilla. Pellentesque pellentesque euismod ex, eu semper felis. Cras eget arcu quis orci scelerisque semper. Ut feugiat nisl augue, a pharetra lectus vehicula ac. Maecenas rutrum, enim congue tincidunt lobortis, tellus elit blandit velit, nec mattis dolor leo sed felis. Integer vestibulum scelerisque nibh in tristique. Donec vel enim sed velit mattis fermentum. Praesent nec odio ultrices, congue sapien vitae, varius nisl. Ut aliquet diam eu tempor rhoncus. Quisque urna magna, gravida id ante eu, aliquam elementum orci. Vestibulum id viverra massa. Aenean ultrices rhoncus ante, id dictum lorem egestas a.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat vel elit a blandit. Donec fringilla porta ipsum in venenatis. Praesent feugiat felis nisl, lacinia rutrum tortor vulputate fringilla. Pellentesque pellentesque euismod ex, eu semper felis. Cras eget arcu quis orci scelerisque semper. Ut feugiat nisl augue, a pharetra lectus vehicula ac. Maecenas rutrum, enim congue tincidunt lobortis, tellus elit blandit velit, nec mattis dolor leo sed felis. Integer vestibulum scelerisque nibh in tristique. Donec vel enim sed velit mattis fermentum. Praesent nec odio ultrices, congue sapien vitae, varius nisl. Ut aliquet diam eu tempor rhoncus. Quisque urna magna, gravida id ante eu, aliquam elementum orci. Vestibulum id viverra massa. Aenean ultrices rhoncus ante, id dictum lorem egestas a</string>
+</resources>

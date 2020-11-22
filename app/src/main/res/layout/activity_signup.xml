@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBack"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_name_layout"
+            android:layout_width="match_parent"
+            app:hintEnabled="false"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/et_custom"
+                android:padding="10dp"
+                android:inputType=""
+                android:hint="Name"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_surname_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/et_name_layout">
+
+            <EditText
+                android:id="@+id/et_surname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="50dp"
+                android:inputType="text"
+                android:background="@drawable/et_custom"
+
+                android:hint="Surname"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_username_layout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            app:hintEnabled="false"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_surname_layout">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/et_custom"
+                android:layout_marginHorizontal="50dp"
+                android:hint="Username"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_password_layout"
+            android:layout_marginHorizontal="50dp"
+            android:layout_below="@id/et_username_layout"
+            android:layout_width="match_parent"
+            app:hintEnabled="false"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_custom"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_manager_layout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            app:hintEnabled="false"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_password_layout">
+
+            <EditText
+                android:id="@+id/et_manager"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/et_custom"
+                android:layout_marginHorizontal="50dp"
+                android:hint="Manager"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spn_auth"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_style2"
+            android:layout_marginHorizontal="50dp"
+            android:layout_below="@id/et_manager_layout"/>
+
+        <Button
+            android:drawableLeft="@drawable/baseline_how_to_reg_black_18dp"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spn_auth"
+            android:background="@drawable/button_border2"
+            android:paddingHorizontal="60dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:text="send"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akronim</item>
+        <item>@font/alegreya_black_italic</item>
+        <item>@font/alike_angular</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/amatica_sc_bold</item>
+        <item>@font/amethysta</item>
+        <item>@font/archivo_black</item>
+        <item>@font/bad_script</item>
+        <item>@font/cinzel_decorative</item>
+    </array>
+</resources>

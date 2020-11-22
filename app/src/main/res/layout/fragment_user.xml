@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UserFragment">
+
+    <Spinner
+        android:id="@+id/spinner_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/spinner_style"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/user_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@id/spinner_user"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+
+</RelativeLayout>
